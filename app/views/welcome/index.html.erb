@@ -1,0 +1,13 @@
+  <%= form_for @user do |f| %>
+    <%= f.text_field :name, placeholder: "name" %>
+    <%= f.text_field :email, placeholder: "email" %>
+    <%= f.submit %>
+  <% end %>
+
+<div id="notice">
+</div>
+
+<div id="map-canvas">
+</div>
+
+<button id="drop-pin">Drop Pin</button>
